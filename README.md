@@ -1,8 +1,8 @@
 # A dynamic table component for Laravel Livewire
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/rappasoft/laravel-livewire-tables.svg?style=flat-square)](https://packagist.org/packages/rappasoft/laravel-livewire-tables)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/fawzanm/laravel-livewire-tables.svg?style=flat-square)](https://packagist.org/packages/fawzanm/laravel-livewire-tables)
 [![StyleCI](https://styleci.io/repos/250246992/shield?style=plastic)](https://github.styleci.io/repos/250246992)
-[![Total Downloads](https://img.shields.io/packagist/dt/rappasoft/laravel-livewire-tables.svg?style=flat-square)](https://packagist.org/packages/rappasoft/laravel-livewire-tables)
+[![Total Downloads](https://img.shields.io/packagist/dt/fawzanm/laravel-livewire-tables.svg?style=flat-square)](https://packagist.org/packages/fawzanm/laravel-livewire-tables)
 
 **This package is still in development and does not have a test suite.**
 
@@ -15,7 +15,7 @@ This plugin assumes you already have [Laravel Livewire](https://laravel-livewire
 You can install the package via composer:
 
 ``` bash
-composer require rappasoft/laravel-livewire-tables
+composer require fawzanm/laravel-livewire-tables
 ```
 
 ## Usage
@@ -31,8 +31,8 @@ namespace App\Http\Livewire;
 
 use App\User;
 use Illuminate\Database\Eloquent\Builder;
-use Rappasoft\LaravelLivewireTables\Views\Column;
-use Rappasoft\LaravelLivewireTables\TableComponent;
+use Fawzanm\LaravelLivewireTables\Views\Column;
+use Fawzanm\LaravelLivewireTables\TableComponent;
 
 class UsersTable extends TableComponent
 {
@@ -429,7 +429,7 @@ If you discover any security related issues, please email rappa819@gmail.com ins
 
 ## Credits
 
-- [Anthony Rappa](https://github.com/rappasoft)
+- [Anthony Rappa](https://github.com/fawzanm)
 - [All Contributors](../../contributors)
 
 ## License

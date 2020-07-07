@@ -1,6 +1,6 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views;
+namespace Fawzanm\LaravelLivewireTables\Views;
 
 /**
  * Class Button.

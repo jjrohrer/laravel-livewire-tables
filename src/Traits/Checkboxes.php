@@ -1,6 +1,6 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Traits;
+namespace Fawzanm\LaravelLivewireTables\Traits;
 
 /**
  * Trait Checkboxes.

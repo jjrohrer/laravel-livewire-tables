@@ -1,20 +1,20 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables;
+namespace Fawzanm\LaravelLivewireTables;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Str;
 use Illuminate\View\View;
 use Livewire\Component;
 use Livewire\WithPagination;
-use Rappasoft\LaravelLivewireTables\Traits\Checkboxes;
-use Rappasoft\LaravelLivewireTables\Traits\Loading;
-use Rappasoft\LaravelLivewireTables\Traits\Offline;
-use Rappasoft\LaravelLivewireTables\Traits\Pagination;
-use Rappasoft\LaravelLivewireTables\Traits\Search;
-use Rappasoft\LaravelLivewireTables\Traits\Sorting;
-use Rappasoft\LaravelLivewireTables\Traits\Table;
-use Rappasoft\LaravelLivewireTables\Traits\Yajra;
+use Fawzanm\LaravelLivewireTables\Traits\Checkboxes;
+use Fawzanm\LaravelLivewireTables\Traits\Loading;
+use Fawzanm\LaravelLivewireTables\Traits\Offline;
+use Fawzanm\LaravelLivewireTables\Traits\Pagination;
+use Fawzanm\LaravelLivewireTables\Traits\Search;
+use Fawzanm\LaravelLivewireTables\Traits\Sorting;
+use Fawzanm\LaravelLivewireTables\Traits\Table;
+use Fawzanm\LaravelLivewireTables\Traits\Yajra;
 
 /**
  * Class TableComponent.

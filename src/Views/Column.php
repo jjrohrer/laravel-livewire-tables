@@ -1,9 +1,9 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views;
+namespace Fawzanm\LaravelLivewireTables\Views;
 
 use Illuminate\Support\Str;
-use Rappasoft\LaravelLivewireTables\Traits\HasComponents;
+use Fawzanm\LaravelLivewireTables\Traits\HasComponents;
 
 /**
  * Class Column.

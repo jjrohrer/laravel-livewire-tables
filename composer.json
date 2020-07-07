@@ -1,14 +1,14 @@
 {
-    "name": "rappasoft/laravel-livewire-tables",
+    "name": "fawzanm/laravel-livewire-tables",
     "description": "A dynamic table component for Laravel Livewire",
     "keywords": [
-        "rappasoft",
+        "fawzanm",
         "livewire",
         "datatables",
         "tables",
         "laravel"
     ],
-    "homepage": "https://github.com/rappasoft/laravel-livewire-tables",
+    "homepage": "https://github.com/fawzanm/laravel-livewire-tables",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Rappasoft\\LaravelLivewireTables\\": "src"
+            "Fawzanm\\LaravelLivewireTables\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Rappasoft\\LaravelLivewireTables\\Tests\\": "tests"
+            "Fawzanm\\LaravelLivewireTables\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,7 +45,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Rappasoft\\LaravelLivewireTables\\LivewireTablesServiceProvider"
+                "Fawzanm\\LaravelLivewireTables\\LivewireTablesServiceProvider"
             ]
         }
     }

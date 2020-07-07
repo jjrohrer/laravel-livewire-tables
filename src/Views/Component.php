@@ -1,9 +1,9 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views;
+namespace Fawzanm\LaravelLivewireTables\Views;
 
-use Rappasoft\LaravelLivewireTables\Traits\CanBeHidden;
-use Rappasoft\LaravelLivewireTables\Views\Contracts\ComponentContract;
+use Fawzanm\LaravelLivewireTables\Traits\CanBeHidden;
+use Fawzanm\LaravelLivewireTables\Views\Contracts\ComponentContract;
 
 /**
  * Class Clickable.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rappasoft\LaravelLivewireTables\Views\Contracts;
+namespace Fawzanm\LaravelLivewireTables\Views\Contracts;
 
 /**
  * Interface Component.
