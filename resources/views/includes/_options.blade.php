@@ -1,10 +1,10 @@
 @if ($paginationEnabled || $searchEnabled)
-    <div class="row mb-4">
+    <div class="">
         @if ($paginationEnabled && $perPageEnabled)
-            <div class="col form-inline">
+            <div class="px-2 py-2">
                 {{ $perPageLabel }}: &nbsp;
 
-                <select wire:model="perPage" class="form-control">
+                <select wire:model="perPage" class="">
                     @if (is_array($perPageOptions))
                         @foreach ($perPageOptions as $option)
                             <option>{{ $option }}</option>
@@ -19,11 +19,11 @@
         @endif
 
         @if ($searchEnabled)
-            <div class="col">
+            <div class="py px-2">
                 <input
                     @if (is_numeric($searchDebounce)) wire:model.debounce.{{ $searchDebounce }}ms="search" @endif
                     @if ($disableSearchOnLoading) wire:loading.attr="disabled" @endif
-                    class="form-control"
+                class="form-input block w-full rounded-lg pl-10 transition ease-in-out duration-150 sm:text-sm sm:leading-5"
                     type="text"
                     placeholder="{{ $searchLabel }}"
                 />
