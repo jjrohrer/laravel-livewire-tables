@@ -4,7 +4,7 @@
             <div class="px-2 py-2">
                 {{ $perPageLabel }}: &nbsp;
 
-                <select wire:model="perPage" class="">
+                <select wire:model="perPage" class="relative form-select transition duration-150 ease-in-out sm:text-sm sm:leading-5">
                     @if (is_array($perPageOptions))
                         @foreach ($perPageOptions as $option)
                             <option>{{ $option }}</option>
