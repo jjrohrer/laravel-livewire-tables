@@ -2,6 +2,7 @@
 
 namespace Fawzanm\LaravelLivewireTables;
 
+use Fawzanm\LaravelLivewireTables\Traits\CreateModel;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Str;
 use Illuminate\View\View;
@@ -29,7 +30,9 @@ abstract class TableComponent extends Component
         Sorting,
         Table,
         WithPagination,
-        Yajra;
+        Yajra,
+        CreateModel
+        ;
 
     /**
      * The classes applied to the wrapper div.
