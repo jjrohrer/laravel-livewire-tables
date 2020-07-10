@@ -19,11 +19,11 @@
             </div>
         @endif
 
-        <div class="flex flex-row-reverse">
+        <div class="flex justify-between">
             @if ($searchEnabled)
 
-                <div class="w-full mr-20 p-10">
-                    <div class="flex-col px-2 py-2">
+{{--                <div class="w-full mr-20 p-10">--}}
+                    <div class="flex-col px-2 py-2 w-64">
                         <input
                                 @if (is_numeric($searchDebounce)) wire:model.debounce.{{ $searchDebounce }}ms="search"
                                 @endif
@@ -33,11 +33,11 @@
                                 placeholder="{{ $searchLabel }}"
                         />
                     </div>
-                </div>
+{{--                </div>--}}
 
             @endif
             @if($createEnabled)
-                <div class="flex-col py-2 px-2 text-center w-64">
+                <div class="flex-col py-2 px-2">
                         <a href="{{$createRoute}}"
                            class="relative inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo focus:border-indigo-700 active:bg-indigo-700">
                             {{$createLabel}}

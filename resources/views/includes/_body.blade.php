@@ -1,6 +1,6 @@
 <tbody>
     @if($models->isEmpty())
-        <tr><td colspan="{{ collect($columns)->count() }}">{{ $noResultsMessage }}</td></tr>
+        <tr><td class="px-4 py-4" colspan="{{ collect($columns)->count() }}">{{ $noResultsMessage }}</td></tr>
     @else
         @foreach($models as $model)
             <tr
