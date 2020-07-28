@@ -4,11 +4,18 @@
 [![StyleCI](https://styleci.io/repos/250246992/shield?style=plastic)](https://github.styleci.io/repos/250246992)
 [![Total Downloads](https://img.shields.io/packagist/dt/eleganttechnologies/laravel-livewire-tables.svg?style=flat-square)](https://packagist.org/packages/eleganttechnologies/laravel-livewire-tables)
 
-**This package is still in development - Do not use this - this is my test copy to get livewire tables working in my app.**
+**This package is still in development - Do not use this - this is my test copy to get livewire tables working in my app.  If I keep developing it, it will certainly depend upon other packages in the works, so really, stay away if you want to avoid sadness.**
 
 A dynamic Laravel Livewire component for data tables.
 
 This plugin assumes you already have [Laravel Livewire](https://laravel-livewire.com/) installed and configured in your project.
+## Roadmap
+- Drop PHP 7.3 support
+- Drop Laravel 6.X support
+- Fix Search so it doesn't reload upon ajax (and thus, loosing focus)
+- Be more themable
+- Examples of how to add additional search boxes
+
 
 ## Installation
 
