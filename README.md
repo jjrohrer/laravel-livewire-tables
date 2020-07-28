@@ -4,7 +4,7 @@
 [![StyleCI](https://styleci.io/repos/250246992/shield?style=plastic)](https://github.styleci.io/repos/250246992)
 [![Total Downloads](https://img.shields.io/packagist/dt/eleganttechnologies/laravel-livewire-tables.svg?style=flat-square)](https://packagist.org/packages/eleganttechnologies/laravel-livewire-tables)
 
-**This package is still in development and does not have a test suite.**
+**This package is still in development - Do not use this - this is my test copy to get livewire tables working in my app.**
 
 A dynamic Laravel Livewire component for data tables.
 
@@ -31,8 +31,8 @@ namespace App\Http\Livewire;
 
 use App\User;
 use Illuminate\Database\Eloquent\Builder;
-use Fawzanm\LaravelLivewireTables\Views\Column;
-use Fawzanm\LaravelLivewireTables\TableComponent;
+use ElegantTechnologies\LaravelLivewireTables\Views\Column;
+use ElegantTechnologies\LaravelLivewireTables\TableComponent;
 
 class UsersTable extends TableComponent
 {
@@ -428,8 +428,8 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 If you discover any security related issues, please email rappa819@gmail.com instead of using the issue tracker.
 
 ## Credits
-
-- [Anthony Rappa](https://github.com/fawzanm)
+- [Anthony Rappa](https://github.com/rappasoft)
+- [fawzanm](https://github.com/fawzanm)
 - [All Contributors](../../contributors)
 
 ## License

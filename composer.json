@@ -2,7 +2,7 @@
     "name": "eleganttechnologies/laravel-livewire-tables",
     "description": "A dynamic table component for Laravel Livewire",
     "keywords": [
-        "fawzanm",
+
         "livewire",
         "datatables",
         "tables",
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Fawzanm\\LaravelLivewireTables\\": "src"
+            "ElegantTechnologies\\LaravelLivewireTables\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Fawzanm\\LaravelLivewireTables\\Tests\\": "tests"
+            "ElegantTechnologies\\LaravelLivewireTables\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,7 +45,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Fawzanm\\LaravelLivewireTables\\LivewireTablesServiceProvider"
+                "ElegantTechnologies\\LaravelLivewireTables\\LivewireTablesServiceProvider"
             ]
         }
     }
