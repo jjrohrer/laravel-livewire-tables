@@ -1,21 +1,21 @@
 <?php
 
-namespace Fawzanm\LaravelLivewireTables;
+namespace ElegantTechnologies\LaravelLivewireTables;
 
-use Fawzanm\LaravelLivewireTables\Traits\CreateModel;
+use ElegantTechnologies\LaravelLivewireTables\Traits\CreateModel;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Str;
 use Illuminate\View\View;
 use Livewire\Component;
 use Livewire\WithPagination;
-use Fawzanm\LaravelLivewireTables\Traits\Checkboxes;
-use Fawzanm\LaravelLivewireTables\Traits\Loading;
-use Fawzanm\LaravelLivewireTables\Traits\Offline;
-use Fawzanm\LaravelLivewireTables\Traits\Pagination;
-use Fawzanm\LaravelLivewireTables\Traits\Search;
-use Fawzanm\LaravelLivewireTables\Traits\Sorting;
-use Fawzanm\LaravelLivewireTables\Traits\Table;
-use Fawzanm\LaravelLivewireTables\Traits\Yajra;
+use ElegantTechnologies\LaravelLivewireTables\Traits\Checkboxes;
+use ElegantTechnologies\LaravelLivewireTables\Traits\Loading;
+use ElegantTechnologies\LaravelLivewireTables\Traits\Offline;
+use ElegantTechnologies\LaravelLivewireTables\Traits\Pagination;
+use ElegantTechnologies\LaravelLivewireTables\Traits\Search;
+use ElegantTechnologies\LaravelLivewireTables\Traits\Sorting;
+use ElegantTechnologies\LaravelLivewireTables\Traits\Table;
+use ElegantTechnologies\LaravelLivewireTables\Traits\Yajra;
 
 /**
  * Class TableComponent.

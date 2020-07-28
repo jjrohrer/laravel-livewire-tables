@@ -1,6 +1,6 @@
 <?php
 
-namespace Fawzanm\LaravelLivewireTables\Traits;
+namespace ElegantTechnologies\LaravelLivewireTables\Traits;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

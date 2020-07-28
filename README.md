@@ -1,8 +1,8 @@
 # A dynamic table component for Laravel Livewire
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/fawzanm/laravel-livewire-tables.svg?style=flat-square)](https://packagist.org/packages/fawzanm/laravel-livewire-tables)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/eleganttechnologies/laravel-livewire-tables.svg?style=flat-square)](https://packagist.org/packages/eleganttechnologies/laravel-livewire-tables)
 [![StyleCI](https://styleci.io/repos/250246992/shield?style=plastic)](https://github.styleci.io/repos/250246992)
-[![Total Downloads](https://img.shields.io/packagist/dt/fawzanm/laravel-livewire-tables.svg?style=flat-square)](https://packagist.org/packages/fawzanm/laravel-livewire-tables)
+[![Total Downloads](https://img.shields.io/packagist/dt/eleganttechnologies/laravel-livewire-tables.svg?style=flat-square)](https://packagist.org/packages/eleganttechnologies/laravel-livewire-tables)
 
 **This package is still in development and does not have a test suite.**
 
@@ -15,7 +15,7 @@ This plugin assumes you already have [Laravel Livewire](https://laravel-livewire
 You can install the package via composer:
 
 ``` bash
-composer require fawzanm/laravel-livewire-tables
+composer require eleganttechnologies/laravel-livewire-tables
 ```
 
 ## Usage

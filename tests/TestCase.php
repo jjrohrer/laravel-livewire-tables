@@ -1,8 +1,8 @@
 <?php
 
-namespace Fawzanm\LaravelLivewireTables\Tests;
+namespace ElegantTechnologies\LaravelLivewireTables\Tests;
 
-use Fawzanm\LaravelLivewireTables\LivewireTablesServiceProvider;
+use ElegantTechnologies\LaravelLivewireTables\LivewireTablesServiceProvider;
 
 /**
  * Class TestCase.

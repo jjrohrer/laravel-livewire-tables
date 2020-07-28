@@ -1,9 +1,9 @@
 <?php
 
-namespace Fawzanm\LaravelLivewireTables\Views;
+namespace ElegantTechnologies\LaravelLivewireTables\Views;
 
-use Fawzanm\LaravelLivewireTables\Traits\CanBeHidden;
-use Fawzanm\LaravelLivewireTables\Views\Contracts\ComponentContract;
+use ElegantTechnologies\LaravelLivewireTables\Traits\CanBeHidden;
+use ElegantTechnologies\LaravelLivewireTables\Views\Contracts\ComponentContract;
 
 /**
  * Class Clickable.

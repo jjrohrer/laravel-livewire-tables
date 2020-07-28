@@ -1,6 +1,6 @@
 <?php
 
-namespace Fawzanm\LaravelLivewireTables\Traits;
+namespace ElegantTechnologies\LaravelLivewireTables\Traits;
 
 /**
  * Trait Table.

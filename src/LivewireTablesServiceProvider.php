@@ -1,6 +1,6 @@
 <?php
 
-namespace Fawzanm\LaravelLivewireTables;
+namespace ElegantTechnologies\LaravelLivewireTables;
 
 use Illuminate\Support\ServiceProvider;
 

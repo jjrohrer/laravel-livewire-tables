@@ -1,9 +1,9 @@
 <?php
 
-namespace Fawzanm\LaravelLivewireTables\Views;
+namespace ElegantTechnologies\LaravelLivewireTables\Views;
 
 use Illuminate\Support\Str;
-use Fawzanm\LaravelLivewireTables\Traits\HasComponents;
+use ElegantTechnologies\LaravelLivewireTables\Traits\HasComponents;
 
 /**
  * Class Column.
@@ -11,6 +11,8 @@ use Fawzanm\LaravelLivewireTables\Traits\HasComponents;
 class Column
 {
     use HasComponents;
+
+    protected $callback = null;
 
     /**
      * @var
@@ -252,5 +254,16 @@ class Column
     public function getViewModelName()
     {
         return $this->viewModelName;
+    }
+
+   public function render($callback): self
+    {
+        if ($this->callback) {
+            return $this;
+        }
+
+        $this->callback = $callback;
+
+        return $this;
     }
 }

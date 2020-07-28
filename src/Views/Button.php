@@ -1,6 +1,6 @@
 <?php
 
-namespace Fawzanm\LaravelLivewireTables\Views;
+namespace ElegantTechnologies\LaravelLivewireTables\Views;
 
 /**
  * Class Button.
