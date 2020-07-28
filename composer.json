@@ -8,18 +8,23 @@
         "tables",
         "laravel"
     ],
-    "homepage": "https://github.com/eleganttechnologies/laravel-livewire-tables",
+    "homepage": "https://github.com/rappasoft/laravel-livewire-tables",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
             "name": "Anthony Rappa",
             "email": "rappa819@gmail.com",
-            "role": "Developer"
+            "role": "Initial-Developer"
+        },
+        {
+            "name": "JJ Rohrer",
+            "email": "jjrohrer@gmail.com",
+            "role": "Tall & Sassy -Development"
         }
     ],
     "require": {
-        "php": "^7.2.5",
+        "php": "^7.4",
         "livewire/livewire": "^1.0"
     },
     "require-dev": {
