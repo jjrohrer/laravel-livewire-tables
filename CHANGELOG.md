@@ -3,6 +3,7 @@
 All notable changes to `laravel-livewire-tables` will be documented in this file
 
 ## [Unreleased]
+- Trying to switch to eleganttechnologies namespace
 
 ## [0.1.6] - 2020-06-15
 
