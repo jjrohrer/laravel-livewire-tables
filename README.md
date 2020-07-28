@@ -13,6 +13,15 @@ This plugin assumes you already have [Laravel Livewire](https://laravel-livewire
 ## Installation
 
 You can install the package via composer:
+``` composer.json
+edit composer.json...
+
+    "repositories": {        
+        "eleganttechnologies/laravel-livewire-tables": {
+            "type": "vcs",
+            "url": "https://github.com/ElegantTechologies/laravel-livewire-tables"
+        }
+```
 
 ``` bash
 composer require eleganttechnologies/laravel-livewire-tables
@@ -23,6 +32,70 @@ composer require eleganttechnologies/laravel-livewire-tables
 ### Creating Tables
 
 To create a table component you can start with the below stub:
+
+In app\Http\UsersTable.php
+```php
+<?php
+
+namespace App\Http\Livewire;
+
+use App\User;
+use Illuminate\Database\Eloquent\Builder;
+use ElegantTechnologies\LaravelLivewireTables\Views\Column;
+use ElegantTechnologies\LaravelLivewireTables\TableComponent;
+
+class UsersTable extends TableComponent
+{
+    public function query() : Builder
+    {
+        return User::where('id','>',0); // This shall return part of a query-builder
+        //https://medium.com/@Eddy_mens/knowing-when-its-a-model-or-a-builder-laravel-822f393e578e
+    }
+
+    public function columns() : array
+    {
+
+        return [
+            // Todo: Show how to do a row count
+            //            Column::make('#','myCount')
+            //                ->isCustomAttribute(),
+            Column::make('ID')
+                ->searchable()
+                ->sortable(),
+            Column::make('Name')
+                ->searchable()
+                ->sortable()
+                ->html()
+                ->render(function($row) {
+                    return "<b>{$row['name']}</b>";
+                }),
+            Column::make('E-mail', 'email')
+                ->searchable()
+                ->sortable()
+                ->view('components.LiveWireTables_mailto','User'),
+                // The blade 'components.LiveWireTables_mailto' will name have a db row as a variable '$User'
+                // with and blade view that does something like..
+                // 
+                // <a 
+                //    href="mailto:{{$User['email']}}"
+                //    class=""
+                //    style="">
+                //    {{$User['name']}}
+                // </a>
+        ];
+    }
+    
+    public function setTableDataClass($attribute, $value) : ?string {
+        $extraClasses = parent::setTableDataClass($attribute, $value);
+        if ($attribute == 'id') {               // This says, if I'm in the body on the column named 'id'
+            $extraClasses .= ' text-center ';   // then add this html 'class' attribute to each td, 
+                                                //  like <td class='text-center'
+        }
+        return $extraClasses;
+    }
+}
+
+```
 
 ```php
 <?php

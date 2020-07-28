@@ -38,6 +38,15 @@
                             @endif
                         @elseif ($column->isView())
                             @include($column->view, [$column->getViewModelName() => $model])
+                        @elseif ($column->callback)
+                                    @php
+                                    $callbackName = $column->callback;
+                                    @endphp
+                                    @if ($column->isHtml())
+                                     {!!  $callbackName($model)  !!}
+                                    @else
+                                    {{ $callbackName($model)  }}
+                                    @endif
                         @else
                             @if ($column->isHtml())
                                 @if ($column->isCustomAttribute())
