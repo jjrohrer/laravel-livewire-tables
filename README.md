@@ -13,6 +13,7 @@ This plugin assumes you already have [Laravel Livewire](https://laravel-livewire
 Forked from the excellent https://github.com/rappasoft/laravel-livewire-tables.  I suggest starting there.
 
 ## Roadmap
+- test 1 ahead of jjrohrer
 - Drop PHP 7.3 support
 - Drop Laravel 6.X support
 - Fix Search so it doesn't reload upon ajax (and thus, loosing focus)
